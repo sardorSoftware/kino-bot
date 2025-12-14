@@ -1,0 +1,4 @@
+django
+pyTelegramBotAPI
+requests
+waitress

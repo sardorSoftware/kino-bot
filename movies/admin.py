@@ -3,5 +3,5 @@ from .models import Movie
 
 @admin.register(Movie)
 class MovieAdmin(admin.ModelAdmin):
-    list_display = ('code', 'title', 'views')
-    search_fields = ('code', 'title')
+    list_display = ('title', 'code', 'views')
+    search_fields = ('title', 'code')
